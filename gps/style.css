@@ -1,0 +1,8 @@
+        @font-face {
+                font-family: HydraText; /*这里是说明调用来的字体名字*/
+                src: url('../css/HydraText.otf'); /*这里是字体文件路径*/
+                }
+                
+       html,body,#container{
+           height:100%;
+       }

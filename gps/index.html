@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="stylesheet" href="https://a.amap.com/jsapi_demos/static/demo-center/css/demo-center.css"/>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&plugin=AMap.LineSearch&key=8973a0d4eb9194011761023ffbf6e982"></script> 
+<script type="text/javascript" src="map.js" defer="defer"></script>
+<title>地图演示</title>
+</head>
+
+<body onload="init()">
+<div id="container"></div> 
+<form action="">
+<div class="input-card" style='width:18rem;'>
+    <label style='color:grey'>公交线路查询</label>
+    <div class="input-item">
+            <div class="input-item-prepend"><span class="input-item-text" >线路名称</span></div>
+            <input id='BusLineName' name="roadline" type="text"  >
+    </div>
+    <input id="search" type="submit" class="btn" value="查询" />
+    
+</div>
+</form>
+</body>
+</html>
